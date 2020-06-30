@@ -2,7 +2,6 @@
 ./data/customdata/images/img002.jpg
 ./data/customdata/images/img003.jpg
 ./data/customdata/images/img004.jpg
-./data/customdata/images/img005.jpg
 ./data/customdata/images/img006.jpg
 ./data/customdata/images/img007.jpg
 ./data/customdata/images/img008.jpg
@@ -34,3 +33,4 @@
 ./data/customdata/images/img186.jpg
 ./data/customdata/images/img187.jpg
 ./data/customdata/images/img188.jpg
+./data/customdata/images/img189.jpg
