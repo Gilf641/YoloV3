@@ -1,9 +1,21 @@
-./data/customdata/images/img001.jpg
-./data/customdata/images/img003.jpg
-./data/customdata/images/img004.jpg
-./data/customdata/images/img005.jpg
-./data/customdata/images/img006.jpg
-./data/customdata/images/img007.jpg
-./data/customdata/images/img008.jpg
-./data/customdata/images/img009.jpg
-./data/customdata/images/img010.jpg
+./data/customdata/images/metal cans/metal001.jpg
+./data/customdata/images/metal cans/metal002.jpg
+./data/customdata/images/metal cans/metal003.jpg
+./data/customdata/images/metal cans/metal004.jpg
+./data/customdata/images/metal cans/metal005.jpg
+./data/customdata/images/metal cans/metal006.jpg
+./data/customdata/images/metal cans/metal007.jpg
+./data/customdata/images/metal cans/metal008.jpg
+./data/customdata/images/metal cans/metal009.jpg
+./data/customdata/images/metal cans/metal010.jpg
+./data/customdata/images/plastic/plastic001.jpg
+./data/customdata/images/plastic/plastic002.jpg
+./data/customdata/images/plastic/plastic003.jpg
+./data/customdata/images/plastic/plastic004.jpg
+./data/customdata/images/plastic/plastic005.jpg
+./data/customdata/images/plastic/plastic006.jpg
+./data/customdata/images/plastic/plastic007.jpg
+./data/customdata/images/plastic/plastic008.jpg
+./data/customdata/images/plastic/plastic009.jpg
+./data/customdata/images/plastic/plastic010.jpg
+
