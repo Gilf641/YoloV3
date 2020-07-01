@@ -6,7 +6,12 @@ ONNX_EXPORT = False
 
 
 def create_modules(module_defs, img_size):
-    # Constructs module list of layer blocks from module configuration in module_defs
+    """
+    Arguments:-
+    module_defs: Module Defintion(consisting of model config elements, in the form of list I guess)
+    img_size: Size of Image
+    What this does:- Constructs module list of layer blocks from module configuration in module_defs
+    """
 
     img_size = [img_size] * 2 if isinstance(img_size, int) else img_size  # expand if necessary
     _ = module_defs.pop(0)  # cfg training hyperparams (unused)
@@ -18,6 +23,8 @@ def create_modules(module_defs, img_size):
     for i, mdef in enumerate(module_defs):
         modules = nn.Sequential()
 
+        # IF-ELIF block to extract all the layer details including number of kernels, filters, stride, batch_normalize etc from cfg file.
+        
         if mdef['type'] == 'convolutional':
             bn = mdef['batch_normalize']
             filters = mdef['filters']
@@ -57,6 +64,9 @@ def create_modules(module_defs, img_size):
                 modules.running_mean = torch.tensor([0.485, 0.456, 0.406])
                 modules.running_var = torch.tensor([0.0524, 0.0502, 0.0506])
 
+
+        # Got it this is for SPP aka Spatial Pyramid Pooling
+
         elif mdef['type'] == 'maxpool':
             k = mdef['size']  # kernel size
             stride = mdef['stride']
@@ -67,6 +77,7 @@ def create_modules(module_defs, img_size):
             else:
                 modules = maxpool
 
+        
         elif mdef['type'] == 'upsample':
             if ONNX_EXPORT:  # explicitly state size, avoid scale_factor
                 g = (yolo_index + 1) * 2 / 32  # gain
