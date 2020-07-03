@@ -85,7 +85,7 @@ def test(cfg,
         # Plot images with bounding boxes
         f = 'test_batch%g.png' % batch_i  # filename
         if batch_i < 1 and not os.path.exists(f):
-            plot_images(imgs=imgs, targets=targets, paths=paths, fname=f)
+           o plot_images(imgs=imgs, targets=targets, paths=paths, fname=f)
 
         # Disable gradients
         with torch.no_grad():
