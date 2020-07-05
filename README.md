@@ -73,8 +73,6 @@ As you can see in the collage image above, a lot is going on, and if you are cre
 
 
 **Results**
-After training for 300 Epochs, results look awesome!
+After training for 110 Epochs, results look good!
 
 ![image1](https://github.com/Gilf641/YoloV3/blob/master/output/output01.jpg)
-![image2](https://github.com/Gilf641/YoloV3/blob/master/output/output02.jpg)
-![image3](https://github.com/Gilf641/YoloV3/blob/master/output/output03.jpg)
