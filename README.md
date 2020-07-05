@@ -3,14 +3,14 @@ ________
 YoloV3 Simplified for training on Colab with custom dataset. 
 
 _A Collage of Training images_
-![image](https://github.com/theschoolofai/YoloV3/blob/master/output/train.png)
+![image](https://github.com/Gilf641/YoloV3/blob/master/train_batch0.png)
 
 
 We have added a very 'smal' Coco sample imageset in the folder called smalcoco. This is to make sure you can run it without issues on Colab.
 
 Full credit goes to [this](https://github.com/ultralytics/yolov3), and if you are looking for much more detailed explainiation and features, please refer to the original [source](https://github.com/ultralytics/yolov3). 
 
-You'll need to download the weights from the original source. 
+Download the weights from the original source. 
 1. Create a folder called weights in the root (YoloV3) folder
 2. Download from: https://drive.google.com/open?id=1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0
 3. Place 'yolov3-spp-ultralytics.pt' file in the weights folder:
@@ -22,7 +22,7 @@ You'll need to download the weights from the original source.
 For custom dataset:
 1. Clone this repo: https://github.com/miki998/YoloV3_Annotation_Tool
 2. Follow the installation steps as mentioned in the repo. 
-3. For the assignment, download 500 images of your unique object. 
+3. Download 500 images of your unique object(!object not in COCO). 
 4. Annotate the images using the Annotation tool. 
 ```
 data
@@ -75,4 +75,4 @@ As you can see in the collage image above, a lot is going on, and if you are cre
 **Results**
 After training for 300 Epochs, results look awesome!
 
-![image](https://github.com/theschoolofai/YoloV3/blob/master/output/download.jpeg)
+![image]()
