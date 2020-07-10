@@ -55,9 +55,9 @@ data
 ```
 7. You need to add custom.names file as you can see above. For our example, we downloaded images of Walle. Our custom.names file look like this:
 ```
-walle
+metal can
 ```
-8. Walle above will have a class index of 0. 
+8. Metal Can above will have a class index of 0. 
 9. For COCO's 80 classes, VOLOv3's output vector has 255 dimensions ( (4+1+80)*3). Now we have 1 class, so we would need to change it's architecture.
 10. Copy the contents of 'yolov3-spp.cfg' file to a new file called 'yolov3-custom.cfg' file in the data/cfg folder. 
 11. Search for 'filters=255' (you should get entries entries). Change 255 to 18 = (4+1+1)*3
