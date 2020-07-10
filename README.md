@@ -1,12 +1,12 @@
 # YoloV3
 ________
-YoloV3 Simplified for training on Colab with custom dataset. 
+YoloV3 Simplified for training on Colab with MetalCan dataset. 
 
 _A Collage of Training images_
 ![image](https://github.com/Gilf641/YoloV3/blob/master/train_batch0.png)
 
 
-We have added a very 'smal' Coco sample imageset in the folder called smalcoco. This is to make sure you can run it without issues on Colab.
+
 
 Full credit goes to [this](https://github.com/ultralytics/yolov3), and if you are looking for much more detailed explainiation and features, please refer to the original [source](https://github.com/ultralytics/yolov3). 
 
