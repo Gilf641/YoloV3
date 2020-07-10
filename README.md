@@ -5,7 +5,7 @@ YoloV3 Simplified for training on Colab with MetalCan dataset.
 _A Collage of Training images_
 ![image](https://github.com/Gilf641/YoloV3/blob/master/train_batch0.png)
 
-![YouTube Link](https://youtu.be/q7YoVXQXQak)
+* **![YouTube Link](https://youtu.be/q7YoVXQXQak)
 
 
 Full credit goes to [this](https://github.com/ultralytics/yolov3), and if you are looking for much more detailed explainiation and features, please refer to the original [source](https://github.com/ultralytics/yolov3). 
